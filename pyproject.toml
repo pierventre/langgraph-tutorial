@@ -1,0 +1,14 @@
+[project]
+name = "langgraph-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-core>=0.3.75",
+    "langchain-google-genai>=2.1.10",
+    "langgraph>=0.6.6",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+]
